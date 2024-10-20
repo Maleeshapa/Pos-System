@@ -1,0 +1,35 @@
+.new-stock-dashboard {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+button.btn {
+  font-size: 1rem;
+}
+
+.table-stock {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.image-preview {
+  max-width: 100%;
+  height: auto;
+}

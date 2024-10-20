@@ -1,0 +1,136 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px; 
+  font-size: 0.9rem;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 3px;
+  font-size: 0.85rem;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 6px;
+  box-sizing: border-box;
+  font-size: 0.85rem;
+  }
+  
+  .btn {
+    margin-right: 8px;
+  padding: 6px 12px; 
+  font-size: 0.85rem;
+  }
+  /*image*/
+.photo-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 20px;
+}
+
+.user-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.edit-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.edit-icon label {
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+}
+
+#photo-input {
+  display: none;
+}
+
+.form-flex{
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+}
+  @media (max-width: 870px) {
+    .modal-content {
+      width: 75%;
+      max-width: 500px; 
+    }
+  
+    .btn {
+      padding: 5px 20px; 
+    }
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 110vw;
+        height: 105vh;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .modal-content {
+      width: 95%;
+      max-width: 500px; 
+    }
+  
+    .btn {
+      padding: 5px 20px; 
+    }
+  }
+
+  @media (max-width: 575px) {
+    .modal-content {
+      width: 100%;
+      max-width: 500px; 
+    }
+  
+    .btn {
+      padding: 10px 20px; 
+    }
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .form-flex{
+      display: block;
+      gap: 50px;
+      justify-content: space-around;
+    }
+  }

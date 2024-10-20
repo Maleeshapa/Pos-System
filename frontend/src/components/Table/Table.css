@@ -1,0 +1,23 @@
+.flex-t-h{
+    display: flex;
+    align-items: center;
+    margin-bottom:10px ;
+}
+@media (max-width:768px) {
+    .flex-t-h{
+        display: block;
+    }
+    .form-con{
+        width: 40%;
+    }
+    
+    .form-con-row{
+        width: 10%;
+    }
+    .flex-se{
+        justify-content: end;
+    }
+    .date{
+        width:40%;
+    }
+}
